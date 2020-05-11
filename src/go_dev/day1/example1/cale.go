@@ -2,6 +2,7 @@ package main
 
 func cale(a int, b int) (int, int) {
 	c := a + b
+	c1 := (a+b) / 1
 	d := (a + b) / 2
 	e := (a + b) / 4
 	f := (a + b) / 5
