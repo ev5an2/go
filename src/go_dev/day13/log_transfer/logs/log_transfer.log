@@ -1,0 +1,42 @@
+2019/11/22 16:47:15.930 [D]  init logger succ
+2019/11/22 16:47:20.742 [E]  init kafka failed, err:kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2019/11/22 16:47:20.742 [E]  init kafka failed, err:kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2019/11/22 17:14:39.598 [D]  init logger succ
+2019/11/22 17:14:39.674 [D]  init kafka succ
+2019/11/22 17:14:44.677 [E]  init es failed, err:no Elasticsearch node available
+2019/11/22 17:19:39.003 [D]  init logger succ
+2019/11/22 17:19:39.024 [D]  init kafka succ
+2019/11/22 17:19:39.046 [D]  init es client succ
+2019/11/22 17:28:28.335 [D]  Partition:4, Offset:7, Key:, Value:123346599883
+2019/11/22 17:28:28.345 [D]  Partition:3, Offset:4, Key:, Value:费工费时
+2019/11/22 17:28:29.603 [D]  Partition:4, Offset:8, Key:, Value:fgdsfgfs
+2019/11/22 17:29:04.305 [D]  init logger succ
+2019/11/22 17:29:04.325 [D]  init kafka succ
+2019/11/22 17:29:04.342 [D]  init es client succ
+2019/11/22 17:32:56.463 [D]  Partition:1, Offset:8, Key:, Value:123346599883
+2019/11/22 17:32:56.473 [D]  Partition:6, Offset:5, Key:, Value:费工费时
+2019/11/22 17:32:56.477 [D]  Partition:0, Offset:5, Key:, Value:fgdsfgfs
+2019/11/22 17:33:10.629 [D]  init logger succ
+2019/11/22 17:33:10.642 [D]  init kafka succ
+2019/11/22 17:33:10.659 [D]  init es client succ
+2019/11/22 17:38:29.345 [D]  init logger succ
+2019/11/22 17:38:29.364 [D]  init kafka succ
+2019/11/22 17:38:29.381 [D]  init es client succ
+2019/11/22 17:43:33.386 [D]  Partition:6, Offset:6, Key:, Value:123346599883
+2019/11/22 17:43:33.473 [D]  Partition:6, Offset:7, Key:, Value:520111
+2019/11/22 17:43:33.495 [D]  Partition:1, Offset:9, Key:, Value:锟窖癸拷锟斤拷时
+2019/11/22 17:43:33.600 [D]  Partition:0, Offset:6, Key:, Value:fgdsfgfs
+2019/11/27 15:34:09.446 [D]  init logger succ
+2019/11/27 15:34:09.522 [D]  init kafka succ
+2019/11/27 15:34:09.632 [D]  init es client succ
+2019/11/27 15:40:34.633 [D]  Partition:3, Offset:11, Key:, Value:127.0.0.1 - - [26/Nov/2019:17:22:18 +0800] "GET / HTTP/1.1" 200 612 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
+2019/11/27 15:40:34.642 [D]  Partition:6, Offset:20, Key:, Value:127.0.0.1 - - [26/Nov/2019:17:22:19 +0800] "GET /favicon.ico HTTP/1.1" 404 571 "http://localhost:10000/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
+2019/11/27 15:40:34.678 [D]  Partition:4, Offset:12, Key:, Value:127.0.0.1 - - [26/Nov/2019:17:35:57 +0800] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
+2019/11/27 15:40:34.702 [D]  Partition:0, Offset:15, Key:, Value:127.0.0.1 - - [26/Nov/2019:17:44:25 +0800] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
+2019/11/27 15:40:34.732 [D]  Partition:2, Offset:13, Key:, Value:127.0.0.1 - - [26/Nov/2019:17:54:11 +0800] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
+2019/11/27 15:40:34.971 [D]  Partition:3, Offset:12, Key:, Value:127.0.0.1 - - [27/Nov/2019:14:45:13 +0800] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
+2019/11/27 15:40:34.981 [D]  Partition:6, Offset:21, Key:, Value:127.0.0.1 - - [27/Nov/2019:14:45:13 +0800] "GET /favicon.ico HTTP/1.1" 404 571 "http://localhost:10000/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
+2019/11/27 15:40:35.104 [D]  Partition:0, Offset:16, Key:, Value:127.0.0.1 - - [26/Nov/2019:17:56:47 +0800] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
+2019/11/27 15:40:52.893 [D]  init logger succ
+2019/11/27 15:40:52.910 [D]  init kafka succ
+2019/11/27 15:40:52.929 [D]  init es client succ

@@ -1,0 +1,22 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+{{/*    {{if gt .Age 18}}*/}}
+{{/*    <p>hello world,man</p>*/}}
+{{/*    {{else}}*/}}
+{{/*    <p>hello world,old man</p>*/}}
+{{/*    {{end}}*/}}
+
+
+        <p>hello world</p>
+        <table border="1">
+        {{range .}}
+            <tr>
+                <td>{{.Name}}</td> <td>{{.Age}}</td><td>{{.Title}}</td>
+            </tr>
+         {{end}}
+        </table>
+    </body>
+    </html>

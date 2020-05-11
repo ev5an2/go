@@ -1,0 +1,40 @@
+2019/11/29 10:17:40.619 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:18 mod_revision:18 version:1 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1028,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/11/29 10:17:40.622 [D] [init.go:134]  sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1028 1505008800 1505012400 0 2000 1000}]]
+2019/11/29 10:17:41.625 [E] [init.go:125]  ping redis failed, err:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2019/11/29 10:17:41.626 [E] [init.go:18]  init black redis failed, err:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2019/11/29 10:17:41.627 [E] [init.go:140]  load black list err:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2019/11/29 10:17:41.628 [I] [main.go:17]  init sec succ
+2019/11/29 10:17:41.629 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/11/29 10:17:41.729 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/11/29 10:18:29.334 [C] [panic.go:679]  the request url is  /secinfo
+2019/11/29 10:18:29.337 [C] [panic.go:679]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/11/29 10:18:29.344 [C] [panic.go:679]  C:/Go/src/runtime/panic.go:679
+2019/11/29 10:18:29.345 [C] [panic.go:679]  C:/Go/src/runtime/panic.go:199
+2019/11/29 10:18:29.345 [C] [panic.go:679]  C:/Go/src/runtime/signal_windows.go:233
+2019/11/29 10:18:29.346 [C] [panic.go:679]  C:/Go/src/sync/rwmutex.go:48
+2019/11/29 10:18:29.346 [C] [panic.go:679]  E:/WorkSpace/GoWork/src/go_dev/day14/SecKill/SecProxy/service/service.go:20
+2019/11/29 10:18:29.346 [C] [panic.go:679]  E:/WorkSpace/GoWork/src/go_dev/day14/SecKill/SecProxy/controller/skill.go:40
+2019/11/29 10:18:29.347 [C] [panic.go:679]  C:/Go/src/reflect/value.go:460
+2019/11/29 10:18:29.347 [C] [panic.go:679]  C:/Go/src/reflect/value.go:321
+2019/11/29 10:18:29.348 [C] [panic.go:679]  E:/WorkSpace/GoWork/src/github.com/astaxie/beego/router.go:853
+2019/11/29 10:18:29.348 [C] [panic.go:679]  C:/Go/src/net/http/server.go:2802
+2019/11/29 10:18:29.349 [C] [panic.go:679]  C:/Go/src/net/http/server.go:1890
+2019/11/29 10:18:29.349 [C] [panic.go:679]  C:/Go/src/runtime/asm_amd64.s:1357
+2019/11/29 10:18:29.350 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/29 10:18:29.754 [D] [server.go:2802]  |            ::1|[43m 404 [0m|      501.7µs| nomatch|[44m GET     [0m /favicon.ico
+2019/11/29 10:40:57.636 [E] [value.go:460]  invalid request, get product_id failed, err:strconv.Atoi: parsing "": invalid syntax
+2019/11/29 10:40:57.637 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     1.5032ms|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/11/29 10:41:04.531 [E] [value.go:460]  invalid request, get product_id failed, err:strconv.Atoi: parsing "": invalid syntax
+2019/11/29 10:41:04.534 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.0096ms|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/11/29 10:41:58.206 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:18 mod_revision:18 version:1 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1028,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/11/29 10:41:58.210 [D] [init.go:134]  sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1028 1505008800 1505012400 0 2000 1000}]]
+2019/11/29 10:41:59.212 [E] [init.go:125]  ping redis failed, err:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2019/11/29 10:41:59.213 [E] [init.go:18]  init black redis failed, err:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2019/11/29 10:41:59.215 [E] [init.go:140]  load black list err:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2019/11/29 10:41:59.216 [I] [main.go:17]  init sec succ
+2019/11/29 10:41:59.216 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/11/29 10:41:59.311 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/11/29 10:42:16.597 [D] [skill.go:93]  get product[1029]， result[map[end:true product_id:1029 start:false status:sec kill is already end]], all[map[1028:0xc000228210 1029:0xc0002281e0]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2019/11/29 10:42:16.597 [D] [skill.go:93]  get product[1028]， result[map[end:true product_id:1028 start:false status:sec kill is already end]], all[map[1028:0xc000228210 1029:0xc0002281e0]] v[&{1028 1505008800 1505012400 0 2000 1000}]
+2019/11/29 10:42:16.598 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      1.505ms|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/11/29 10:42:27.092 [D] [server.go:2802]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo

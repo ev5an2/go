@@ -1,0 +1,146 @@
+2019/12/04 21:22:41.464 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:2 version:1 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 21:22:41.464 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0}]]
+2019/12/04 21:22:43.469 [E] [init.go:125]  ping redis failed, err:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2019/12/04 21:22:43.470 [E] [init.go:18]  init black redis failed, err:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2019/12/04 21:22:43.471 [E] [init.go:140]  load black list err:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2019/12/04 21:22:43.471 [I] [main.go:17]  init sec succ
+2019/12/04 21:22:43.472 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 21:22:43.582 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 21:29:27.114 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:2 version:1 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 21:29:27.116 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0}]]
+2019/12/04 21:29:27.118 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 16 300} {127.0.0.1:6379 8 64 300} { 8 64 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc000175380] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc00018e460 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 21:29:27.120 [I] [main.go:17]  init sec succ
+2019/12/04 21:29:27.121 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 21:29:27.242 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 21:30:35.274 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:2 version:1 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 21:30:35.275 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0}]]
+2019/12/04 21:30:35.277 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 16 300} {127.0.0.1:6379 8 64 300} { 8 64 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc00029e120] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc0002ce070 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 21:30:35.279 [I] [main.go:17]  init sec succ
+2019/12/04 21:30:35.280 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 21:30:35.408 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 22:24:22.253 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:2 version:1 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 22:24:22.253 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0}]]
+2019/12/04 22:24:22.255 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 16 300} {127.0.0.1:6379 8 64 300} { 8 64 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc0001a6210] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc00018e380 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 22:24:22.255 [I] [main.go:17]  init sec succ
+2019/12/04 22:24:22.255 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 22:24:22.380 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 22:26:24.865 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:2 version:1 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 22:26:24.865 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0}]]
+2019/12/04 22:26:24.867 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 0 300} {127.0.0.1:6379 8 0 300} { 8 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc000298180] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc0002ca070 <nil> <nil> <nil> {{0 0} 0 0 0 0} 3 3 <nil> 0 map[] {0 0}}
+2019/12/04 22:26:24.868 [I] [main.go:17]  init sec succ
+2019/12/04 22:26:24.869 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 22:26:24.975 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 22:29:55.806 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:2 version:1 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 22:29:55.807 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0}]]
+2019/12/04 22:29:55.810 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 16 300} {127.0.0.1:6379 8 64 300} { 8 64 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc0002aa0c0] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc0002a8070 <nil> <nil> <nil> {{0 0} 0 0 0 0} 2 16 <nil> 0 map[] {0 0}}
+2019/12/04 22:29:55.811 [I] [main.go:17]  init sec succ
+2019/12/04 22:29:55.812 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 22:29:55.947 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 22:31:51.152 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:2 version:1 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 22:31:51.152 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0}]]
+2019/12/04 22:31:51.154 [I] [main.go:17]  init sec succ
+2019/12/04 22:31:51.154 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 22:31:51.260 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 22:32:40.934 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:2 version:1 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 22:32:40.935 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0}]]
+2019/12/04 22:32:40.936 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 16 300} {127.0.0.1:6379 8 64 300} { 8 64 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc0002de0c0] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc0002dc070 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 22:37:21.377 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:2 version:1 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 22:37:21.377 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0}]]
+2019/12/04 22:37:21.378 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 0 300} {127.0.0.1:6379 8 0 300} { 8 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc00016ce10] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc00013d420 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 22:37:21.380 [I] [main.go:17]  init sec succ
+2019/12/04 22:37:21.381 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 22:37:21.511 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 22:37:26.225 [D] [server.go:2802]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /  
+2019/12/04 22:37:26.293 [D] [server.go:2802]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2019/12/04 22:37:28.176 [D] [server.go:2802]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /  
+2019/12/04 22:37:31.286 [D] [server.go:2802]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /  
+2019/12/04 22:37:38.479 [D] [server.go:2802]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /  
+2019/12/04 22:38:37.404 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:2 version:1 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 22:38:37.405 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0}]]
+2019/12/04 22:38:37.408 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 0 300} {127.0.0.1:6379 8 0 300} { 8 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc0002ba0c0] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc000284150 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 22:38:37.410 [I] [main.go:17]  init sec succ
+2019/12/04 22:38:37.411 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 22:38:37.539 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 22:38:37.625 [D] [server.go:2802]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/12/04 22:38:58.628 [D] [value.go:460]  client request:[&{1028     0  2019-12-04 22:38:58.6285862 +0800 CST m=+21.268378301 [  0xc000036070 0xc012622060}]
+2019/12/04 22:38:58.630 [W] [skill.go:67]  userId[0] secInfoBy Id failed, req[&{1028     0  2019-12-04 22:38:58.6285862 +0800 CST m=+21.268378301 [  0xc000036070 0xc012622060}]
+2019/12/04 22:38:58.631 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9917ms|   match|[44m GET     [0m /seckill   r:/seckill
+2019/12/04 22:39:06.931 [D] [value.go:460]  client request:[&{1029     0  2019-12-04 22:39:06.9316357 +0800 CST m=+29.571427801 [  0xc000036150 0xc0302b0780}]
+2019/12/04 22:39:06.932 [W] [skill.go:67]  userId[0] secInfoBy Id failed, req[&{1029     0  2019-12-04 22:39:06.9316357 +0800 CST m=+29.571427801 [  0xc000036150 0xc0302b0780}]
+2019/12/04 22:39:06.932 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      996.9µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/12/04 22:41:05.882 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1},{\"ProductId\":2,\"StartTime\":1575565996,\"EndTime\":1575666996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 22:41:05.883 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0} {2 1575565996 1575666996 0 11 0}]]
+2019/12/04 22:41:05.884 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 0 300} {127.0.0.1:6379 8 0 300} { 8 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc0002ca0f0 2:0xc0002ca120] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc000290150 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 22:41:05.887 [I] [main.go:17]  init sec succ
+2019/12/04 22:41:05.888 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 22:41:06.017 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 22:41:07.175 [D] [value.go:460]  client request:[&{1029     0  2019-12-04 22:41:07.1752325 +0800 CST m=+1.335582801 [  0xc000036070 0xc005046480}]
+2019/12/04 22:41:07.176 [W] [skill.go:67]  userId[0] secInfoBy Id failed, req[&{1029     0  2019-12-04 22:41:07.1752325 +0800 CST m=+1.335582801 [  0xc000036070 0xc005046480}]
+2019/12/04 22:41:07.177 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     1.9921ms|   match|[44m GET     [0m /seckill   r:/seckill
+2019/12/04 22:41:11.992 [D] [value.go:460]  client request:[&{1029     0  2019-12-04 22:41:11.9922632 +0800 CST m=+6.152613501 [  0xc000036070 0xc00b692060}]
+2019/12/04 22:41:11.993 [W] [skill.go:67]  userId[0] secInfoBy Id failed, req[&{1029     0  2019-12-04 22:41:11.9922632 +0800 CST m=+6.152613501 [  0xc000036070 0xc00b692060}]
+2019/12/04 22:41:11.994 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     1.9945ms|   match|[44m GET     [0m /seckill   r:/seckill
+2019/12/04 22:41:17.497 [D] [value.go:460]  client request:[&{2     0  2019-12-04 22:41:17.4974194 +0800 CST m=+11.657769701 [  0xc000036150 0xc01ce98420}]
+2019/12/04 22:41:17.498 [W] [skill.go:67]  userId[0] secInfoByid failed, code[1005] req[&{2     0  2019-12-04 22:41:17.4974194 +0800 CST m=+11.657769701 [  0xc000036150 0xc01ce98420}]
+2019/12/04 22:41:17.499 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     1.9949ms|   match|[44m GET     [0m /seckill   r:/seckill
+2019/12/04 22:41:30.783 [D] [value.go:460]  client request:[&{1029     0  2019-12-04 22:41:30.7832454 +0800 CST m=+24.943595701 [  0xc000036070 0xc02f944060}]
+2019/12/04 22:41:30.784 [W] [skill.go:67]  userId[0] secInfoBy Id failed, req[&{1029     0  2019-12-04 22:41:30.7832454 +0800 CST m=+24.943595701 [  0xc000036070 0xc02f944060}]
+2019/12/04 22:41:30.785 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     1.9948ms|   match|[44m GET     [0m /seckill   r:/seckill
+2019/12/04 22:41:33.622 [D] [value.go:460]  client request:[&{1     0  2019-12-04 22:41:33.6227818 +0800 CST m=+27.783132101 [  0xc000036150 0xc022dbe060}]
+2019/12/04 22:41:33.624 [W] [skill.go:67]  userId[0] secInfoByid failed, code[1006] req[&{1     0  2019-12-04 22:41:33.6227818 +0800 CST m=+27.783132101 [  0xc000036150 0xc022dbe060}]
+2019/12/04 22:41:33.624 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     1.9949ms|   match|[44m GET     [0m /seckill   r:/seckill
+2019/12/04 22:42:36.915 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1},{\"ProductId\":2,\"StartTime\":1575565996,\"EndTime\":1575666996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 22:42:36.916 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0} {2 1575565996 1575666996 0 11 0}]]
+2019/12/04 22:42:36.917 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 0 300} {127.0.0.1:6379 8 0 300} { 8 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc0002de0f0 2:0xc0002de120] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc0002dc070 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 22:42:36.919 [I] [main.go:17]  init sec succ
+2019/12/04 22:42:36.919 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 22:42:37.025 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 22:42:37.032 [D] [skill.go:94]  get product[2]， result[map[end:false product_id:2 start:false status:sec kill is not start]], all[map[1:0xc0002de0f0 2:0xc0002de120]] v[&{2 1575565996 1575666996 0 11 0}]
+2019/12/04 22:42:37.032 [D] [skill.go:94]  get product[1]， result[map[end:true product_id:1 start:false status:sec kill is already end]], all[map[1:0xc0002de0f0 2:0xc0002de120]] v[&{1 1575465996 1575466996 0 11 0}]
+2019/12/04 22:42:37.033 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      997.8µs|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/12/04 22:50:44.124 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1},{\"ProductId\":2,\"StartTime\":1575565996,\"EndTime\":1575666996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 22:50:44.124 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0} {2 1575565996 1575666996 0 11 0}]]
+2019/12/04 22:50:44.127 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 0 300} {127.0.0.1:6379 8 0 300} { 8 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc00002e450 2:0xc00002e480] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc00029c150 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 22:50:44.128 [I] [main.go:17]  init sec succ
+2019/12/04 22:50:44.130 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 22:50:44.243 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 22:51:49.593 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1},{\"ProductId\":2,\"StartTime\":1575565996,\"EndTime\":1575666996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 22:51:49.594 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0} {2 1575565996 1575666996 0 11 0}]]
+2019/12/04 22:51:49.595 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 0 300} {127.0.0.1:6379 8 0 300} { 8 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc0002cc0f0 2:0xc0002cc120] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc0002ca070 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 22:51:49.598 [I] [main.go:17]  init sec succ
+2019/12/04 22:51:49.599 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 22:51:49.725 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 23:02:03.176 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1},{\"ProductId\":2,\"StartTime\":1575565996,\"EndTime\":1575666996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 23:02:03.179 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0} {2 1575565996 1575666996 0 11 0}]]
+2019/12/04 23:02:03.180 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 0 300} {127.0.0.1:6379 8 0 300} { 8 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc00002e390 2:0xc00002e3c0] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc0002d2070 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 23:02:03.181 [I] [main.go:17]  init sec succ
+2019/12/04 23:02:03.182 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 23:02:03.295 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 23:10:35.271 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1},{\"ProductId\":2,\"StartTime\":1575565996,\"EndTime\":1575666996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 23:10:35.271 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0} {2 1575565996 1575666996 0 11 0}]]
+2019/12/04 23:10:35.275 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 0 300} {127.0.0.1:6379 8 0 300} { 8 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc00002f950 2:0xc00002f980] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc00013d0a0 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 23:10:35.277 [I] [main.go:17]  init sec succ
+2019/12/04 23:10:35.277 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 23:10:35.402 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 23:12:21.130 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1},{\"ProductId\":2,\"StartTime\":1575565996,\"EndTime\":1575666996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 23:12:21.131 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0} {2 1575565996 1575666996 0 11 0}]]
+2019/12/04 23:12:21.132 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 0 300} {127.0.0.1:6379 8 0 300} { 8 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc0002a01b0 2:0xc0002a01e0] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc0002cc070 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 23:12:21.134 [I] [main.go:17]  init sec succ
+2019/12/04 23:12:21.134 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 23:12:21.244 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 23:18:56.706 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1},{\"ProductId\":2,\"StartTime\":1575565996,\"EndTime\":1575666996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 23:18:56.706 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0} {2 1575565996 1575666996 0 11 0}]]
+2019/12/04 23:18:56.709 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 0 300} {127.0.0.1:6379 8 0 300} { 8 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc0002961b0 2:0xc0002961e0] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc00029e150 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 23:18:56.711 [I] [main.go:17]  init sec succ
+2019/12/04 23:18:56.711 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 23:18:56.834 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/12/04 23:19:01.999 [D] [value.go:460]  client request:[&{1     1  2019-12-04 23:19:01.9996851 +0800 CST m=+5.337806501 127.0.0.1  0xc000d6e000 0xc0101b01e0}]
+2019/12/04 23:19:02.000 [W] [service.go:136]  user[1] is reject by refer, req[&{1     1  2019-12-04 23:19:01.9996851 +0800 CST m=+5.337806501 127.0.0.1  0xc000d6e000 0xc0101b01e0}]
+2019/12/04 23:19:02.001 [W] [skill.go:67]  userId[1] invalid, check failed, req[&{1     1  2019-12-04 23:19:01.9996851 +0800 CST m=+5.337806501 127.0.0.1  0xc000d6e000 0xc0101b01e0}]
+2019/12/04 23:19:02.002 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     2.9911ms|   match|[44m GET     [0m /seckill   r:/seckill
+2019/12/04 23:21:26.070 [D] [init.go:134]  key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1,\"StartTime\":1575465996,\"EndTime\":1575466996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1},{\"ProductId\":2,\"StartTime\":1575565996,\"EndTime\":1575666996,\"Status\":0,\"Total\":11,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":1,\"SoldMaxLimit\":1}]" ]
+2019/12/04 23:21:26.071 [D] [init.go:134]  sec info conf is [[{1 1575465996 1575466996 0 11 0} {2 1575565996 1575666996 0 11 0}]]
+2019/12/04 23:21:26.072 [D] [init.go:140]  init service succ, config:&{{127.0.0.1:6379 8 0 300} {127.0.0.1:6379 8 0 300} { 8 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1:0xc0002d60f0 2:0xc0002d6120] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc000296150 <nil> <nil> <nil> {{0 0} 0 0 0 0} 16 16 <nil> 0 map[] {0 0}}
+2019/12/04 23:21:26.075 [I] [main.go:17]  init sec succ
+2019/12/04 23:21:26.076 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/12/04 23:21:26.187 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091

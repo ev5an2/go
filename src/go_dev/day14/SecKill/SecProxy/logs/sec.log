@@ -1,0 +1,23 @@
+2019/11/28 14:40:43.180 [D] [init.go:141]  init service succ, config:&{{127.0.0.1:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[] {{0 0} 0 0 0 0}}
+2019/11/28 14:40:43.180 [I] [main.go:17]  init sec succ
+2019/11/28 14:40:43.181 [D] [asm_amd64.s:1357]  begin watch key:/oldboy/backend/secskill/product
+2019/11/28 14:40:43.293 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:9091
+2019/11/28 16:46:02.038 [D] [asm_amd64.s:1357]  get config from etcd, PUT "/oldboy/backend/secskill/product" : "[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]"
+
+2019/11/28 16:46:02.040 [D] [asm_amd64.s:1357]  get config from etcd succ, [{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]
+2019/11/28 16:48:03.037 [D] [asm_amd64.s:1357]  get config from etcd, PUT "/oldboy/backend/secskill/product" : "[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1028,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]"
+
+2019/11/28 16:48:03.038 [D] [asm_amd64.s:1357]  get config from etcd succ, [{1029 1505008800 1505012400 0 1000 1000} {1028 1505008800 1505012400 0 2000 1000}]
+2019/11/28 16:51:37.254 [W] [asm_amd64.s:1357]  key[/oldboy/backend/secskill/product] 's config deleted
+2019/11/28 16:51:37.254 [D] [asm_amd64.s:1357]  get config from etcd succ, [{1029 1505008800 1505012400 0 1000 1000} {1028 1505008800 1505012400 0 2000 1000}]
+2019/11/28 16:56:17.008 [D] [asm_amd64.s:1357]  get config from etcd, PUT "/oldboy/backend/secskill/product" : "[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1028,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]"
+
+2019/11/28 16:56:17.009 [D] [asm_amd64.s:1357]  get config from etcd succ, [{1029 1505008800 1505012400 0 1000 1000} {1028 1505008800 1505012400 0 2000 1000}]
+2019/11/28 17:12:25.432 [D] [server.go:2802]  |            ::1|[43m 404 [0m|      501.1µs| nomatch|[44m GET     [0m /seckinfo
+2019/11/28 17:12:33.113 [D] [server.go:2802]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /seckInfo
+2019/11/28 17:13:22.508 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      505.6µs|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/11/28 17:16:29.258 [E] [value.go:460]  invalid request, get product_id failed, err:strconv.Atoi: parsing "": invalid syntax
+2019/11/28 17:16:29.259 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     1.0025ms|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/11/28 17:16:35.082 [E] [value.go:460]  invalid request, get product_id failed, err:strconv.Atoi: parsing "": invalid syntax
+2019/11/28 17:16:35.083 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      501.4µs|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/11/28 17:20:24.651 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      501.8µs|   match|[44m GET     [0m /secinfo   r:/secinfo

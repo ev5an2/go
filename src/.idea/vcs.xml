@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/github.com/Shopify/sarama" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/astaxie/beego" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/coreos/etcd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/davecgh/go-spew" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/eapache/go-resiliency" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/eapache/go-xerial-snappy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/eapache/queue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/garyburd/redigo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/go-sql-driver/mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/golang/crypto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/golang/net" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/golang/snappy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/hashicorp/go-uuid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/hpcloud/tail" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/jcmturner/gofork" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/jinzhu/gorm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/jinzhu/inflection" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/jmoiron/sqlx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/klauspost/compress" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/pierrec/lz4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/rcrowley/go-metrics" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/shiena/ansicolor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github.com/stretchr/testify" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/golang.org/x/crypto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/golang.org/x/net" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gopkg.in/jcmturner/aescts.v1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gopkg.in/jcmturner/dnsutils.v1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gopkg.in/jcmturner/gokrb5.v7" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gopkg.in/jcmturner/gokrb5.v71" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gopkg.in/jcmturner/rpc.v1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gopkg.in/yaml.v2" vcs="Git" />
+  </component>
+</project>

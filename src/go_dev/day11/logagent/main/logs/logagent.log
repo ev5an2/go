@@ -1,0 +1,25 @@
+2019/11/21 17:09:51.665 [D]  load conf success ,conf:&{debug ./logs/logagent.log 100 172.26.12.16:9092 [{E:\WorkSpace\GoWork\src\go_dev\day11\logagent\main\logs\logagent.log nginx_log}] 172.26.12.16:2379 /oldboy/backend/logagent/config/}
+2019/11/21 17:09:51.680 [D]  init kafka success
+2019/11/21 17:09:52.009 [D]  log config is [{D:/project/nginx/logs/access.log nginx_log} {D:/project/nginx/logs/error.log nginx_log_err}]
+2019/11/21 17:09:52.012 [D]  initialize success
+2019/11/21 17:17:28.547 [D]  load conf success ,conf:&{debug ./logs/logagent.log 100 172.26.12.16:9092 [{E:\WorkSpace\GoWork\src\go_dev\day11\logagent\main\logs\logagent.log nginx_log}] 172.26.12.16:2379 /oldboy/backend/logagent/config/}
+2019/11/21 17:17:28.888 [D]  log config is [{D:/project/nginx/logs/access.log nginx_log} {D:/project/nginx/logs/error.log nginx_log_err}]
+2019/11/21 17:17:28.907 [D]  init kafka success
+2019/11/21 17:17:28.907 [D]  initialize success
+2019/11/21 17:29:57.366 [D]  load conf success ,conf:&{debug ./logs/logagent.log 100 172.26.12.16:9092 [{E:\WorkSpace\GoWork\src\go_dev\day11\logagent\main\logs\logagent.log nginx_log}] 172.26.12.16:2379 /oldboy/backend/logagent/config/}
+2019/11/21 17:29:57.694 [D]  log config is [{E:/WorkSpace/GoWork/src/go_dev/day11/logagent/main/logs/access.log nginx_log} {D:/project/nginx/logs/error.log nginx_log_err}]
+2019/11/21 17:29:57.713 [D]  init kafka success
+2019/11/21 17:29:57.713 [D]  initialize success
+2019/11/21 17:30:39.466 [D]  load conf success ,conf:&{debug ./logs/logagent.log 100 172.26.12.16:9092 [{E:\WorkSpace\GoWork\src\go_dev\day11\logagent\main\logs\logagent.log nginx_log}] 172.26.12.16:2379 /oldboy/backend/logagent/config/}
+2019/11/21 17:30:39.802 [D]  log config is [{E:/WorkSpace/GoWork/src/go_dev/day11/logagent/main/logs/access.log nginx_log} {D:/project/nginx/logs/error.log nginx_log_err}]
+2019/11/21 17:30:39.820 [D]  init kafka success
+2019/11/21 17:30:39.820 [D]  initialize success
+2019/11/21 17:52:29.848 [D]  load conf success ,conf:&{debug ./logs/logagent.log 100 172.26.12.16:9092 [{E:\WorkSpace\GoWork\src\go_dev\day11\logagent\main\logs\logagent.log nginx_log}] 172.26.12.16:2379 /oldboy/backend/logagent/config/}
+2019/11/21 17:52:30.175 [D]  log config is [{E:/WorkSpace/GoWork/src/go_dev/day11/logagent/main/logs/access.log nginx_log} {D:/project/nginx/logs/error.log nginx_log_err}]
+2019/11/21 17:52:30.195 [D]  init kafka success
+2019/11/21 17:52:30.195 [D]  initialize success
+2019/11/21 23:08:42.836 [D]  load conf success ,conf:&{debug ./logs/logagent.log 100 192.168.1.105:9092 [{E:\WorkSpace\Go\src\go_dev\day11\logagent\main\logs\logagent.log nginx_log}] 192.168.1.105:2379 /oldboy/backend/logagent/config/}
+2019/11/21 23:08:43.838 [E]  client get from etcd failed,err:context deadline exceeded
+2019/11/21 23:08:44.838 [E]  client get from etcd failed,err:context deadline exceeded
+2019/11/21 23:08:45.839 [E]  client get from etcd failed,err:context deadline exceeded
+2019/11/21 23:08:46.839 [E]  client get from etcd failed,err:context deadline exceeded
